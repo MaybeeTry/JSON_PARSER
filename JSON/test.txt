@@ -1,0 +1,25 @@
+[
+  {
+    "name" : "C/C++ Runner: Dbug Seesion",
+	"type" : "cppdbg",
+	"request" : "launch",
+	"args" :
+	[
+		""
+	],
+	"stopAtEntry" : false,
+	"cwd": "d:Users/PC/Desktop/vscode",
+	"environment" : [],
+	"program" : "c:Users/PC/Desktop/vscode/build/Debug/outDebug",
+	"inerenalConsoleOptions" : "openOnSessionStrat",
+	"MIMode" : "gdb",
+	"miDebuggerPath" : "D:/mingw64/bin/gdb.exe",
+	"setupCommands" : [
+	{
+		"description" : "Enable pretty-printing for gdb",
+		"text" : "-enable-prety-printing",
+		"ignoreFailuress" : true
+	}
+	]
+  }
+]
